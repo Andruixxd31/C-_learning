@@ -10,5 +10,5 @@ int main(int argc, char **argv)
     cout << "is z a letter or a number " << isalnum(letterZ) << endl;
     cout << "is z a letter or a number " << isalpha(letterZ) << endl;
     cout << "is 5 a number " << isalpha(num5) << endl;
-    cout << "is space a spacr " << isspace(aSpace) << endl;
+    cout << "is space a space " << isspace(aSpace) << endl;
 }

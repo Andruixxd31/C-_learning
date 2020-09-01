@@ -19,8 +19,12 @@ void Shape::SetHeight(double height) { this->height = height; }
 
 double Shape::GetHeight() { return this->height; }
 
-void Shape::SetWidth(double height) { this->width = width; }
+void Shape::SetWidth(double height) { width = width; }
 
 double Shape::GetWidth() { return this->width; }
 
 int Shape::GetNumOfShapes() { return numOfShapes; }
+
+double Shape::Area() { return this->height * this->width; }
+
+int Shape::numOfShapes = 0;
